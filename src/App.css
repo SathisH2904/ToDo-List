@@ -1,0 +1,99 @@
+/* Container for the entire to-do app */
+.todo-head {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fefefe;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header with icon and title */
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.todo img {
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input + ADD button section */
+.input-head {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.input-head input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.input-head input:focus {
+  border-color: #007bff;
+}
+
+.input-head button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-head button:hover {
+  background-color: #0056b3;
+}
+.tick-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin: 10px 0;
+  padding: 12px 16px;
+  border-radius: 6px;
+}
+
+.tick-head .header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.tick-head img {
+  width: 20px;
+  height: 20px;
+}
+
+.tick-head p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.tick-head .delete {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
